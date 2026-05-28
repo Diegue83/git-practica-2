@@ -44,7 +44,7 @@ git status
 ## Haz un fork del repositorio creado para la práctica del taller:
 - Entra en https://github.com/
 - Accede a tu cuenta.
-- Accede al repositorio del profesor https://github.com/josefranciscomunozespinosa/git-practica-2/
+- Accede al repositorio del profesor https://github.com/lalobarri/git-practica-2.git
 - Pulsa el botón fork (parte superior derecha) para crearte una copia del mismo en tu cuenta.
 - Clona el repositorio en tu equipo *en otra carpeta diferente que la llamaremos 'git-practica-2'*. Quedará algo parecido a lo siguiente:
 ```bash
