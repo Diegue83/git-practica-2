@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juan Diego Juarez Cruz</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 40px;
+      border-radius: 20px;
+      text-align: center;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+
+    h1 {
+      margin-bottom: 10px;
+      font-size: 40px;
+    }
+
+    p {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 10px;
+      background: white;
+      color: #2a5298;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #dbe9ff;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <h1>Hola, soy Diego 👋</h1>
+
+    <p>Bienvenido a mi página HTML.</p>
+
+    <p>
+      Me interesa el desarrollo de software, diseño de interfaces
+      y crear proyectos innovadores.
+    </p>
+
+    <button onclick="mostrarMensaje()">
+      Haz clic
+    </button>
+  </div>
+
+  <script>
+    function mostrarMensaje() {
+      alert("¡Gracias por visitar mi página!");
+    }
+  </script>
+</body>
+</html>
